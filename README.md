@@ -56,17 +56,23 @@ Its circuit is based on :
 ![alt text](https://github.com/ALICHOUCHENE/ODACO/blob/main/Product/BAND%201%20tra_.png)
 
 
+- PCB View : 
 
 
+![alt text](https://github.com/ALICHOUCHENE/ODACO/blob/main/Band/Band_PCB.PNG)
 
 
+- Board 3D view : 
+
+
+![alt text](https://github.com/ALICHOUCHENE/ODACO/blob/main/Band/Band_3D.PNG)
 
 
 
 
 **Belt :**
 
-This gadget is used to mesure biometric data of the user and send it to the Box: 
+This gadget is used to get biometric data of the user and send it to the Box: 
 Its circuit is based on : 
 
 - Atmel microcontroller (Atmega328p) running at 16 MHz.
@@ -80,16 +86,28 @@ Its circuit is based on :
 - Step Up Boost circuit (3.7V to 5V).
 
 
-
-
-
-
 ![alt text](https://github.com/ALICHOUCHENE/ODACO/blob/main/Product/Belt.png)
 
+- PCB View : 
+
+
+![alt text](https://github.com/ALICHOUCHENE/ODACO/blob/main/Belt/Belt_PCB.PNG)
+
+
+- Board 3D view : 
+
+
+![alt text](https://github.com/ALICHOUCHENE/ODACO/blob/main/Belt/Belt_3D.PNG)
+
+
+
+
+## Stay Safe : 
+
+
+![alt text](https://github.com/ALICHOUCHENE/ODACO/blob/main/Product/ODACO.jpg)
 
 
 
 
 
-### Web Site : 
-you can find here all informations related to our project: www.odaco.tn
