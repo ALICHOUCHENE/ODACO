@@ -42,7 +42,7 @@ It's based on 3 embedded boards :
 - Arduino nano to communicate with the remote control, bandes and the posture belt.
 
 
-**Bande :**
+# Bande :
 
 Those bandes will vibrate when the person make a wrong performance. 
 Its circuit is based on : 
@@ -76,7 +76,7 @@ Its circuit is based on :
 
 
 
-**Belt :**
+# Belt :
 
 This gadget is used to get biometric data of the user and send it to the Box: 
 Its circuit is based on : 
