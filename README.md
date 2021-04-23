@@ -41,7 +41,7 @@ It's based on 3 embedded boards :
 
 **Bande :**
 
-Those bandes will vibrate when the person perform a wrong performance. 
+Those bandes will vibrate when the person make a wrong performance. 
 Its circuit is based on : 
 
 - Atmel microcontroller (Atmega328p) running at 8 MHz.
@@ -53,7 +53,7 @@ Its circuit is based on :
 - Battery management system for 3.7v lipo battery.
 
 
-![alt text](https://github.com/ALICHOUCHENE/ODACO/blob/main/Product/BAND.png)
+![alt text](https://github.com/ALICHOUCHENE/ODACO/blob/main/Product/BAND%201%20tra_.png)
 
 
 
