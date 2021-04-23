@@ -5,7 +5,7 @@
 ODACO consists of a personnal smart trainer that allows the user to live the whole experience of a private trainning session with adapted programs, posture detection and correction, voice commands and interactions with a simple and easy interface.
 
 
-![alt text](https://github.com/ALICHOUCHENE/Marine-Robot/blob/main/Thrusters%20Controller/schematic/schematics.PNG?raw=true)
+![alt text](https://github.com/ALICHOUCHENE/ODACO/blob/main/Product/ODACO.jfif)
 
 
 ### My contributions : 
