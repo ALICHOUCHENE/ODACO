@@ -42,7 +42,7 @@ It's based on 3 embedded boards :
 - Arduino nano to communicate with the remote control, bandes and the posture belt.
 
 
-## Bande :
+## Band :
 
 Those bandes will vibrate when the person make a wrong performance. 
 Its circuit is based on : 
