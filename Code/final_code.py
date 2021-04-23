@@ -10,10 +10,10 @@ import os
 import random
 
 time.sleep(5)
-# os.system("sudo rfcomm connect0 98:D3:B1:FD:6D:AE & ")
-# ble=serial.Serial("/dev/rfcomm0",9600)
-# ble.write('connected to HC05'.encode())
-# 
+ os.system("sudo rfcomm connect0 98:D3:B1:FD:6D:AE & ")
+ ble=serial.Serial("/dev/rfcomm0",9600)
+ ble.write('connected to HC05'.encode())
+ 
 try:
     ser=serial.Serial('/dev/ttyUSB0',9600)
 except:
@@ -22,21 +22,21 @@ finally:
     print('connected to arduino nano')
 
 
-# 
-# HOST = '192.168.1.113' # Server IP or Hostname
-# PORT = 1024 # Pick an open Port (1000+ recommended), must match the client sport
-# s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-# print ('Socket created')
-# try:
-#     s.bind((HOST, PORT))
-# except socket.error:
-#     print ('Bind failed ')
-# 
-# 
-# s.listen(5)
-# print ('Socket awaiting messages')
-# (conn, addr) = s.accept()
-# print ('Connected')
+ 
+ HOST = '192.168.1.113' # Server IP or Hostname
+ PORT = 1024 # Pick an open Port (1000+ recommended), must match the client sport
+ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+ print ('Socket created')
+ try:
+     s.bind((HOST, PORT))
+ except socket.error:
+     print ('Bind failed ')
+ 
+ 
+ s.listen(5)
+ print ('Socket awaiting messages')
+ (conn, addr) = s.accept()
+ print ('Connected')
 
 def speak(path):
     mixer.init()
@@ -119,14 +119,14 @@ def vocal() :
     detector.start(detected_callback=callbacks, sleep_time=0.1)
     detector.terminate()
     
-# def ahl():
-#     
-#     while True:
-#         data = conn.recv(1024)
-#         data = data.decode()
-#         motivate(str(data))
-#         print(data)
-#         ble.write(data.encode())
+ def ahl():
+     
+     while True:
+         data = conn.recv(1024)
+         data = data.decode()
+         motivate(str(data))
+         print(data)
+         ble.write(data.encode())
         
 
 def commande ():
@@ -140,13 +140,13 @@ def commande ():
 
 if __name__ == "__main__":
     t1 = Thread(target = vocal)
-#     t2 = Thread(target = ahl)
+    t2 = Thread(target = ahl)
     t3 = Thread (target = commande)
     t1.setDaemon(True)
-#     t2.setDaemon(True)
+    t2.setDaemon(True)
     t3.setDaemon(True)
     t1.start()
-#     t2.start()
+    t2.start()
     t3.start()
     while True:
         pass
