@@ -43,10 +43,48 @@ It's based on 3 embedded boards :
 
 Those bandes will vibrate when the person perform a wrong performance. 
 Its circuit is based on : 
+
 - Atmel microcontroller (Atmega328p) running at 8 MHz.
+
 - RF433 radio receiver.
+
 - Vibrator motor.
+
 - Battery management system for 3.7v lipo battery.
+
+
+![alt text](https://github.com/ALICHOUCHENE/ODACO/blob/main/Product/BAND.png)
+
+
+
+
+
+
+
+
+
+
+**Belt :**
+
+This gadget is used to mesure biometric data of the user and send it to the Box: 
+Its circuit is based on : 
+
+- Atmel microcontroller (Atmega328p) running at 16 MHz.
+
+- HC-06 Bluetooth Module.
+
+- MAX30100 biometric (SPO2, Heart rate and Temperature .
+
+- Battery management system for 3.7v lipo battery.
+
+- Step Up Boost circuit (3.7V to 5V).
+
+
+
+
+
+
+![alt text](https://github.com/ALICHOUCHENE/ODACO/blob/main/Product/Belt.png)
 
 
 
