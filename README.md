@@ -2,6 +2,9 @@
 
 ### Description : 
 
+
+
+
 ODACO consists of a personnal smart trainer that allows the user to live the whole experience of a private trainning session with adapted programs, posture detection and correction, voice commands and interactions with a simple and easy interface.
 
 
@@ -56,13 +59,16 @@ Its circuit is based on :
 ![alt text](https://github.com/ALICHOUCHENE/ODACO/blob/main/Product/BAND%201%20tra_.png)
 
 
+
 - PCB View : 
 
 
 ![alt text](https://github.com/ALICHOUCHENE/ODACO/blob/main/Band/Band_PCB.PNG)
 
 
+
 - Board 3D view : 
+
 
 
 ![alt text](https://github.com/ALICHOUCHENE/ODACO/blob/main/Band/Band_3D.PNG)
@@ -88,13 +94,18 @@ Its circuit is based on :
 
 ![alt text](https://github.com/ALICHOUCHENE/ODACO/blob/main/Product/Belt.png)
 
+
+
 - PCB View : 
 
 
 ![alt text](https://github.com/ALICHOUCHENE/ODACO/blob/main/Belt/Belt_PCB.PNG)
 
 
+
+
 - Board 3D view : 
+
 
 
 ![alt text](https://github.com/ALICHOUCHENE/ODACO/blob/main/Belt/Belt_3D.PNG)
