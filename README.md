@@ -25,14 +25,16 @@ ODACO consists of a personnal smart trainer that allows the user to live the who
 
 - Creation of gadgets to mesure biometric data of the user using Atmega328P microcontroller.
 
--Assuring the communication among different compartments via Bluetooth, socket communication and radio frequencies.
+- Assuring the communication among different compartments via Bluetooth, socket communication and radio frequencies.
 
--Designing of all the electronic circuits of the system, based on AVR microcontrollers, with KiCad.
+- Designing of all the electronic circuits of the system, based on AVR microcontrollers, with KiCad.
 
 ### Hardware : 
 
-- **TH BOX :**
+- **THE BOX :**
+
 The box is the main part of the system.
+
 It's based on 3 embedded boards :
 
 - NVIDIA Jetson nano running an AI algorithm wich detect and analyse the humain posture.
